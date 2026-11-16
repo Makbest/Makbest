@@ -1,0 +1,22 @@
+# ---- 操作系统垃圾 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+ehthumbs.db
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ---- 本脚本产生的时间戳备份 ----
+*.bak
+*.bak_*
+
+# ---- 临时文件 ----
+*.tmp
+temp/
+
+# ---- 依赖目录 ----
+node_modules/

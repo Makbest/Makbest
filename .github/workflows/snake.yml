@@ -1,0 +1,39 @@
+# ============================================================
+#  贡献蛇动画自动生成
+#  作用：每天定时（以及每次 push 到 main）读取你的贡献图，
+#        用蛇吃掉方块的方式渲染成 SVG，并推送到 output 分支。
+#  README 引用的是 output 分支上的 raw 地址，因此本文件无需任何密钥，
+#  用的是仓库内置的 GITHUB_TOKEN。
+# ============================================================
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"      # 每天 00:00 UTC 跑一次
+  workflow_dispatch:          # 也可在 Actions 页面手动触发
+  push:
+    branches:
+      - main                  # 首次推送后立刻跑一次
+
+permissions:
+  contents: write             # 需要写权限才能把产物推到 output 分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
