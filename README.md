@@ -96,8 +96,8 @@ $ git commit -m "another day, another deploy"
 
 <!-- 仓库统计 + 语言占比 -->
 <div align="center">
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Makbest&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=7B2FF7&text_color=C9D1D9&rank_icon=github" alt="stats" />
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Makbest&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=C9D1D9" alt="top langs" />
+  <img height="170" src="https://gh-readme-stats.vercel.app/api?username=Makbest&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=7B2FF7&text_color=C9D1D9&rank_icon=github" alt="stats" />
+  <img height="170" src="https://gh-readme-stats.vercel.app/api/top-langs/?username=Makbest&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00F7FF&text_color=C9D1D9" alt="top langs" />
 </div>
 
 <!-- 连续提交热力图 -->
