@@ -14,7 +14,7 @@
 <!-- ========== 动态打字机（readme-typing-svg） ========== -->
 <div align="center">
   <a href="https://github.com/Makbest">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=00F7FF&center=true&vCenter=true&width=780&lines=Hi%2C+I'm+Makbest;Full-Stack+Developer;Open+Source+Lover;Turning+Coffee+into+Code;Always+Shipping+Something+Cool" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=700&size=26&duration=2800&pause=900&color=00F7FF&center=true&vCenter=true&width=780&lines=%E6%88%91%E6%98%AF%E5%85%A8%E4%B8%96%E7%95%8C%E6%9C%80%E6%9A%B4%E5%8A%9B%E7%9A%84S;Full-Stack+Developer;Open+Source+Lover;Turning+Coffee+into+Code;Always+Shipping+Something+Cool" alt="Typing SVG" />
   </a>
 </div>
 
